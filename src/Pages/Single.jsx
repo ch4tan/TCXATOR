@@ -58,8 +58,8 @@ const Single = () => {
     };
 
     return (
-        <div className="flex items-center justify-center flex-col w-full h-full gap-16 text-xl ">
-            <div className="flex flex-col w-full gap-3 justify-center items-center landscape-mobile:grid landscape-mobile:grid-rows-2 landscape-mobile:grid-flow-col landscape-mobile:gap-6">
+        <div className="flex items-center justify-center flex-col w-full h-full gap-[5vh] text-xl ">
+            <div className="flex flex-col w-full gap-[1vh] justify-center items-center landscape-mobile:grid landscape-mobile:grid-rows-2 landscape-mobile:grid-flow-col landscape-mobile:gap-6">
                 <ListBox Key="Activity" id="Activity" nameId="Activity" stateChange={setActivity} />
                 <DateBox state={date} stateChange={setDate} error={errorDate} />
                 <InputBoxDuration minute={trainMinute} hour={trainHour} setMinute={setTrainMinute} setHour={setTrainHour} error={errorTrainHour} labelName="Hour" />
