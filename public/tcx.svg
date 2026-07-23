@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Fond arrondi avec bordure blanche intégrée (stroke="white") -->
+  <rect x="1" y="1" width="30" height="30" rx="5" fill="#1E293B" stroke="#ffffff" stroke-width="1.5"/>
+  
+  <!-- Tracé d'une courbe GPS / Activité -->
+  <path d="M6 22 L12 14 L18 20 L26 10" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Point de destination / Création -->
+  <circle cx="26" cy="10" r="2.5" fill="#3B82F6"/>
+  
+  <!-- La lettre "T" de TCXator discrète en arrière-plan -->
+  <text x="6" y="26" font-family="Arial, sans-serif" font-weight="900" font-size="10" fill="#64748B">T</text>
+</svg>
