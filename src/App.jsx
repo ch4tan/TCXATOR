@@ -17,6 +17,7 @@ const App = () => {
               <Route path='*' element={<NotFound />} />
             </Routes>
       </BrowserRouter>
+      <footer className='text-white text-center'>Copyright 2026 by TCXATOR - All Rights Reserved</footer>
     </div>
   );
 };
